@@ -10,10 +10,10 @@
 #-------------------------------------------------------------------------------
 import sys, pygame, pygame.mixer
 from pygame.locals import *
-from JuegoNaves.Engine.Sounds import Sounds
-from JuegoNaves.Engine.Events import Events
-from JuegoNaves.Engine.Graphics import Graphics
-from JuegoNaves.Juego.Juego import Juego
+from Sounds import Sounds
+from Events import Events
+from Graphics import Graphics
+from Juego.Juego import Juego
 
 class Engine:
     def __init__(self):

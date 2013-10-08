@@ -10,7 +10,7 @@
 #-------------------------------------------------------------------------------
 import sys, pygame, pygame.mixer
 from pygame.locals import *
-from JuegoNaves.Juego.Naves.InterfazNave import InterfazNave
+from InterfazNave import InterfazNave
 class NaveEnemigo(InterfazNave):
     image = pygame.image.load("Engine/Graphics/Images/spaceship2.png")
     def __init__(self):

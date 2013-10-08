@@ -10,7 +10,7 @@
 #-------------------------------------------------------------------------------
 import sys, pygame, pygame.mixer
 from pygame.locals import *
-from JuegoNaves.Juego.Naves.Disparo import Disparo
+from Disparo import Disparo
 
 class InterfazNave:
     x=0

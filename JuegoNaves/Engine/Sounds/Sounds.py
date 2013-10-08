@@ -11,9 +11,9 @@
 
 import sys, pygame, pygame.mixer
 from pygame.locals import *
-from JuegoNaves.Engine.Events import Events
-from JuegoNaves.Engine.Graphics import Graphics
-from JuegoNaves.Juego import *
+from Engine.Events import Events
+from Engine.Graphics import Graphics
+from Juego import *
 
 def playSound(sound):
     sound.play()

@@ -9,8 +9,8 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 #Necesario para iniciar pygame:
-import sys, pygame, pygame.mixer, JuegoNaves.Engine.Engine
+import sys, pygame, pygame.mixer, Engine.Engine
 from pygame.locals import *
 
 pygame.init()
-JuegoNaves.Engine.Engine.Engine()
+Engine.Engine.Engine()
