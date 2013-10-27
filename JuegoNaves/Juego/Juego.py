@@ -10,9 +10,9 @@
 #-------------------------------------------------------------------------------
 import sys, pygame, pygame.mixer
 from pygame.locals import *
-from Naves.InterfazNave import InterfazNave
-from Naves.NaveEnemigo import NaveEnemigo
-from Naves.NaveJugador import NaveJugador
+from .Naves.InterfazNave import InterfazNave
+from .Naves.NaveEnemigo import NaveEnemigo
+from .Naves.NaveJugador import NaveJugador
 
 
 class Juego:

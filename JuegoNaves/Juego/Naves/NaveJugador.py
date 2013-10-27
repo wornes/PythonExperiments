@@ -12,7 +12,7 @@ import sys, pygame, pygame.mixer
 from threading import Thread
 from time import sleep
 from pygame.locals import *
-from InterfazNave import InterfazNave
+from .InterfazNave import InterfazNave
 class NaveJugador(InterfazNave):
     image = pygame.image.load("Engine/Graphics/Images/spaceship.png")
     def __init__(self):

@@ -10,9 +10,9 @@
 #-------------------------------------------------------------------------------
 import sys, pygame, pygame.mixer
 from pygame.locals import *
-from Sounds import Sounds
-from Events import Events
-from Graphics import Graphics
+from .Sounds import Sounds
+from .Events import Events
+from .Graphics import Graphics
 from Juego.Juego import Juego
 
 class Engine:
